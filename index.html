@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETH OS ROCKET Game</title> <!-- Changed to "ETH OS ROCKET Game" -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="game-container">
+    <h1>ETH OS ROCKET Game</h1> <!-- Changed to "ETH OS ROCKET Game" -->
+    <div id="game-area">
+      <div class="background-animation"></div>
+      <div id="particle-effects"></div>
+      <img id="plane" src="my-cryptojet-logo.png.jpg" alt="ETH OS ROCKET Logo" class="plane"> <!-- Changed alt text -->
+      <img class="eth-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/120px-Ethereum_logo_2014.svg.png" alt="Ethereum Logo" id="eth1">
+      <img class="eth-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/120px-Ethereum_logo_2014.svg.png" alt="Ethereum Logo" id="eth2">
+      <img class="eth-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/120px-Ethereum_logo_2014.svg.png" alt="Ethereum Logo" id="eth3">
+      <div id="candle-line"></div>
+      <div id="cash-display">Cash: 10 ETH</div>
+      <button id="bet-btn">Bet: 1 ETH</button>
+    </div>
+    <div id="multiplier">Multiplier: 1.00x</div>
+    <div id="message"></div>
+    <button id="takeoff-btn">Take Off</button>
+    <button id="cashout-btn" disabled>Cash Out</button>
+    <label>Auto-Cashout: <input type="number" id="auto-cashout" min="1" max="10" value="0" step="0.1"></label>
+    <label>Theme: <select id="theme">
+      <option value="day">Day</option>
+      <option value="night">Night</option>
+    </select></label>
+    <audio id="takeoff-sound" src="https://www.soundjay.com/buttons/beep-01a.mp3"></audio>
+    <audio id="cashout-sound" src="https://www.soundjay.com/buttons/beep-02.mp3"></audio>
+    <audio id="crash-sound" src="https://www.soundjay.com/misc/crash-01.mp3"></audio>
+    <audio id="win-sound" src="https://www.soundjay.com/buttons/button-09a.mp3"></audio>
+    <audio id="lose-sound" src="https://www.soundjay.com/buttons/button-10a.mp3"></audio>
+  </div>
+  <script src="script.js" defer></script>
+</body>
+</html>
