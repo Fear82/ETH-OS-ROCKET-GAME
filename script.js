@@ -1,3 +1,4 @@
+// ETH OS ROCKET Game by Fear82, Copyright 2025. All rights reserved.
 const plane = document.getElementById('plane');
 const multiplierDisplay = document.getElementById('multiplier');
 const messageDisplay = document.getElementById('message');
